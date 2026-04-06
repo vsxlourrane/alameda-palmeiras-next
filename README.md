@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌴 Alameda das Palmeiras - Landing Page Imobiliária
 
-## Getting Started
+Landing Page de alta conversão desenvolvida para o empreendimento **Alameda das Palmeiras**, localizado em Parnamirim/RN. O projeto foi arquitetado com foco em performance (Core Web Vitals), SEO orgânico e experiência de usuário premium.
 
-First, run the development server:
+## 🚀 Demonstração
+> **Link do Projeto:** [https://alameda-palmeiras.vercel.app](https://seu-link-aqui.vercel.app)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack & Diferenciais Técnicos
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Este projeto utiliza o que há de mais moderno no ecossistema React para garantir velocidade e escalabilidade:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+*   **Next.js 14+ (App Router):** Utilização de Server Components para renderização ultra-rápida e otimização de SEO.
+*   **TypeScript:** Tipagem estática em todo o projeto para maior segurança e facilidade de manutenção.
+*   **Tailwind CSS:** Estilização baseada em utilitários com Design System personalizado (Cores Brand Primary & Gold).
+*   **Next/Image:** Otimização automática de assets, servindo imagens em formato `.avif` e `.webp` com lazy loading.
+*   **Google Fonts (Next/Font):** Implementação das fontes *Playfair Display* (Serif) e *Inter* (Sans) sem impacto no Cumulative Layout Shift (CLS).
+*   **Arquitetura Modular:** Separação clara entre `constants`, `ui components` e `page sections`.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🎯 Funcionalidades Principais
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1.  **Conversão via WhatsApp:** Fluxo de agendamento dinâmico que envia dados de data e hora formatados diretamente para o consultor.
+2.  **SEO Local:** Estrutura de metadados focada no ranqueamento para termos específicos de Parnamirim e Rosa dos Ventos.
+3.  **Performance Sênior:** Pontuação próxima de 100 no Lighthouse, garantindo melhor custo-benefício em campanhas de tráfego pago (Google Ads).
+4.  **Interface Responsiva:** Experiência "Mobile-First" fluida para usuários vindos de redes sociais.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## ⚙️ Como executar o projeto localmente
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/seu-usuario/alameda-palmeiras-next.git](https://github.com/seu-usuario/alameda-palmeiras-next.git)
+    ```
+2.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
+3.  **Inicie o servidor de desenvolvimento:**
+    ```bash
+    npm run dev
+    ```
+4.  **Acesse no navegador:** `http://localhost:3000`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📝 Licença
+Desenvolvido por **LOURRANE XAVIER** - https://www.linkedin.com/in/lourrane-xavier/
