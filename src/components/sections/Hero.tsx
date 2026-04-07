@@ -18,7 +18,7 @@ export function Hero() {
           <Button href="#agendar">Agendar Visita Agora</Button>
         </header>
         
-        <div className="relative w-full aspect-[888/710] rounded-2xl shadow-2xl overflow-hidden border border-white/10 bg-zinc-900">
+        <div className="relative w-full aspect-[888/710] rounded-2xl shadow-2xl overflow-hidden border border-white/10 bg-zinc-900 z-10">
           <Image 
             src="/fachada-condominio-alameda-palmeiras-parnamirim (2).avif"
             alt="Fachada Alameda das Palmeiras em Parnamirim RN"
@@ -26,11 +26,12 @@ export function Hero() {
             priority
             fetchPriority="high"
             className="object-cover"
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 888px"
+            sizes="(max-width: 768px) 95vw, (max-width: 1200px) 50vw, 888px"
+            quality={80}
           />
         </div>
       </div>
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[1000px] h-[1000px] bg-brand-gold/5 blur-[150px] rounded-full z-0" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-brand-gold/5 blur-[100px] rounded-full z-0 pointer-events-none" />
     </section>
   );
 }

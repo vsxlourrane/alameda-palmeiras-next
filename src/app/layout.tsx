@@ -5,7 +5,7 @@ import "./globals.css";
 const playfair = Playfair_Display({
   subsets: ["latin"],
   variable: "--font-playfair",
-  display: "swap", // Essencial para evitar Layout Shift (CLS)
+  display: "swap", 
 });
 
 const inter = Inter({
@@ -15,20 +15,22 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Condomínio Alameda das Palmeiras | Casas em Condomínio Fechado em Parnamirim",
+  title: " Alameda das Palmeiras | Casas em Condomínio Fechado em Parnamirim",
   description: "More no melhor condomínio de Rosa dos Ventos, Parnamirim/RN. Casas de 2 e 3 quartos com lazer completo, segurança 24h e financiamento MCMV Faixa 3. Agende sua visita!",
   keywords: ["Casa a venda em Parnamirim","Casas em condomínio a venda em Parnamirim/RN" ,"Condomínio Fechado em Parnamirim/RN", "Casas em Rosa dos Ventos Parnamirim", "Condomínio Alameda das Palmeiras", "Minha Casa Minha Vida-Faixa 3 em Parnamirim", "Imóveis a venda em Parnamirim"],
   alternates: {
-    canonical: "https://seusite.com.br", // Substitua pelo seu domínio final para evitar conteúdo duplicado
+    canonical: "https://alameda-das-palmeiras.vercel.app/", 
   },
+  
   openGraph: {
-    title: "Condomínio Alameda das Palmeiras | Exclusividade e Segurança em Parnamirim",
+    title: "Alameda das Palmeiras | Exclusividade e Segurança em Parnamirim",
     description: "Casas modernas em condomínio fechado com área de lazer completa em Rosa dos Ventos.",
-    url: "https://seusite.com.br",
+    url: "https://alameda-das-palmeiras.vercel.app/",
     siteName: "Alameda das Palmeiras",
     locale: "pt_BR",
     type: "website",
   },
+  
   robots: {
     index: true,
     follow: true,

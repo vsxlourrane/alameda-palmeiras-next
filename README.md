@@ -11,7 +11,7 @@ Landing Page de alta conversão desenvolvida para o empreendimento **Alameda das
 
 Este projeto utiliza o que há de mais moderno no ecossistema React para garantir velocidade e escalabilidade:
 
-*   **Next.js 14+ (App Router):** Utilização de Server Components para renderização ultra-rápida e otimização de SEO.
+*   **Next.js v16.2.2 (App Router):** Utilização de Server Components para renderização ultra-rápida e otimização de SEO.
 *   **TypeScript:** Tipagem estática em todo o projeto para maior segurança e facilidade de manutenção.
 *   **Tailwind CSS:** Estilização baseada em utilitários com Design System personalizado (Cores Brand Primary & Gold).
 *   **Next/Image:** Otimização automática de assets, servindo imagens em formato `.avif` e `.webp` com lazy loading.

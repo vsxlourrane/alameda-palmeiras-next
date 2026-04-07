@@ -19,14 +19,15 @@ export function Location() {
             ))}
           </div>
         </div>
-        <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" className="relative h-[500px] rounded-[3rem] overflow-hidden shadow-2xl group order-1 lg:order-2">
+        <a href="https://maps.app.goo.gl/Nz9hrRH2nQ6q19SF7" target="_blank" rel="noopener noreferrer" className="relative h-[500px] rounded-[3rem] overflow-hidden shadow-2xl group order-1 lg:order-2">
           <Image 
             src="/mapa-localizacao-alameda.avif" 
             alt="Localização do Condomínio Alameda das Palmeiras Parnamirim" 
             fill 
             className="object-cover grayscale group-hover:grayscale-0 transition-all duration-1000" 
             loading="lazy"
-            sizes="(max-width: 768px) 100vw, 50vw"
+            sizes="(max-width: 768px) 90vw, 45vw"
+            quality={65}
           />
           <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-brand-primary/20 backdrop-blur-sm">
             <span className="bg-white text-brand-primary px-8 py-4 rounded-full font-bold shadow-2xl">ABRIR MAPA</span>
