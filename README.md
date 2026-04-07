@@ -3,7 +3,7 @@
 Landing Page de alta conversão desenvolvida para o empreendimento **Alameda das Palmeiras**, localizado em Parnamirim/RN. O projeto foi arquitetado com foco em performance (Core Web Vitals), SEO orgânico e experiência de usuário premium.
 
 ## 🚀 Demonstração
-> **Link do Projeto:** [https://alameda-palmeiras.vercel.app](https://seu-link-aqui.vercel.app)
+> **Link do Projeto:** [https://alameda-das-palmeiras.vercel.app/] 
 
 ---
 
